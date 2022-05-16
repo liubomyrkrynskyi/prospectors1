@@ -1,4 +1,5 @@
 import mobile_logo_img from '../images/mobile_logo.png'
+import {L} from "../l10n/L10n"
 
 const Header = () => {
     return (
@@ -7,34 +8,34 @@ const Header = () => {
             <div className={"container"}>
                 <div className={"logo_box"}>
                     <a href="">
-                        <img height={"44px"} src={mobile_logo_img.src} alt="mobile_logo"/>
+                        <img height={"44px"} src={mobile_logo_img.src} alt="mobile logo"/>
                     </a>
                 </div>
                 <div className={"nav_box"}>
                     <a href="">
-                        <li>About game</li>
+                        <li>{L.header.links.about_game}</li>
                     </a>
                     <a href="">
-                        <li>My assets</li>
+                        <li>{L.header.links.my_assets}</li>
                     </a>
                     <a href="">
-                        <li>Blog</li>
+                        <li>{L.header.links.blog}</li>
                     </a>
                     <a href="">
-                        <li>Wiki</li>
+                        <li>{L.header.links.wiki}</li>
                     </a>
                     <a href="">
-                        <li>Time</li>
+                        <li>{L.header.links.team}</li>
                     </a>
                     <a href="">
-                        <li>Rewards</li>
+                        <li>{L.header.links.rewards}</li>
                     </a>
                     <a href="">
-                        <li>FAQS</li>
+                        <li>{L.header.links.faqs}</li>
                     </a>
                 </div>
                 <a href="">
-                    <button className={"play_btn"}>PLAY GAME</button>
+                    <button className={"play_btn"}>{L.header.play_game}</button>
                 </a>
             </div>
         </div>
