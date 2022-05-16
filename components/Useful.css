@@ -1,0 +1,42 @@
+.useful_link_wrapper {
+    background-image: url(https://prospectors.io/assets/landing/useful_link_list/backBuyLandsPlots-0116d791bb129b2acc758a2dd5508307024ddaf0f85a4ffef2a66ea8329de0c0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.useful_link_list{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 777px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.useful_link_item {
+    margin: 74px;
+    max-width: 396px;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.useful_link_item_img{
+    width: 100%;
+}
+.useful_link_item_title{
+    min-height: 64px;
+    margin-bottom: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.play_btn{
+    text-align: center;
+}

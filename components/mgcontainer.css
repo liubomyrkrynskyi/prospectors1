@@ -1,0 +1,26 @@
+.container{
+    font-size: 14px;
+}
+.mg_container h2 {
+    font-size: 42px;
+    text-align: left;
+    font-weight: bold;
+}
+.mg_container .mg_content p {
+    margin: 20px 0;
+}
+.mg_container .mg_img img {
+    width: 95%;
+}
+.mg_container .mg_img {
+    width: 100%;
+    height: 100%;
+    margin-right: -5%;
+}
+.mg_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
