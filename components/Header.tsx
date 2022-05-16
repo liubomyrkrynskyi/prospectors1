@@ -1,17 +1,18 @@
 import mobile_logo_img from '../images/mobile_logo.png'
 import {L} from "../l10n/L10n"
+import Styles from "./Header.module.scss"
 
 const Header = () => {
     return (
         //TODO @liubomyrkrynskyi why the class name is capitalized
-        <div className={"Header"}>
-            <div className={"container"}>
-                <div className={"logo_box"}>
+        <div className={Styles.Header}>
+            <div className={Styles.container}>
+                <div>
                     <a href="">
                         <img height={"44px"} src={mobile_logo_img.src} alt="mobile logo"/>
                     </a>
                 </div>
-                <div className={"nav_box"}>
+                <div className={Styles.nav_box}>
                     <a href="">
                         <li>{L.header.links.about_game}</li>
                     </a>
@@ -35,7 +36,7 @@ const Header = () => {
                     </a>
                 </div>
                 <a href="">
-                    <button className={"play_btn"}>{L.header.play_game}</button>
+                    <button className={Styles.play_btn}>{L.header.play_game}</button>
                 </a>
             </div>
         </div>
