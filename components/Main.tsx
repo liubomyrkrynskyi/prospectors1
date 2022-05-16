@@ -5,6 +5,7 @@ const Main = () => {
      <div className={"mc_middle_content"}>
         <div className={"logo-container"}>
             <img width={"100%"} src={Logo_with_icon.src} alt="Logo with icon"/>
+            {/*TODO @liubomyrkrynskyi you should not use inline style*/}
             <h5 margin-top={"10px"}>Massive Multiplayer Online Real-Time Economic Strategy Game </h5>
             <h2>
                 <strong>MINE GOLD - BUILD YOUR WORLD</strong>

@@ -3,7 +3,7 @@ import but_pgl_img from "../images/landing/useful_link_list/buy_pgl.png"
 
 const Useful = () => {
 
-    return(
+    return (
         <div className={"useful_link_wrapper"}>
             <div className={"useful_link_list"}>
                 <div className={"useful_link_item"}>
