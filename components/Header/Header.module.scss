@@ -1,0 +1,27 @@
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(37, 34, 33, 0.95);
+  color: white;
+  box-shadow: 0 0 5px -1px black;
+  height: 68px;
+}
+
+.nav_box {
+  display: flex;
+  column-gap: 10px;
+
+  li {
+    list-style-type: none;
+    padding-left: 12px;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 68px;
+}
+

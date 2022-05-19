@@ -1,0 +1,50 @@
+@import "../../styles/defs";
+
+.mc_middle_content {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: url("../../images/landing/main_back.jpg"), url("../../images/landing/main_back_cloud.png");
+    background-size: cover;
+}
+.logo_container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 80px ;
+    img{
+        width: 100%;
+    }
+}
+
+.btn_container_main_page {
+    text-align: center;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secondPlayBtn {
+    margin-top: 20px;
+    background: none;
+    border: 4px solid $main-color;
+    color: $main-color ;
+    font-size: 26px;
+    padding: 4px 28px;
+}
+.playBtnBig {
+    button {
+        width: 211px;
+        height: 53px;
+        font-size: 26px;
+    }
+}
+
+
+
+
+
+

@@ -1,9 +1,12 @@
 import type {NextPage} from 'next'
-import Main from "../components/Main";
-import Useful from "../components/Useful";
-import MgContainer from "../components/mgcontainer";
-import Features from "../components/Features";
+import Main from "../components/Main/Main";
+import Useful from "../components/Useful/Useful";
+import MgContainer from "../components/mgcontainer/mgcontainer";
+import Features from "../components/Features/Features";
+import Grandland from "../components/Grandland/Grandland";
+import News from "../components/News/News"
 import Layout from "../components/Layout";
+import Styles from "../components/Layout.module.scss";
 
 const Home: NextPage = () => {
     return (
@@ -12,6 +15,9 @@ const Home: NextPage = () => {
             <Useful/>
             <MgContainer/>
             <Features/>
+            <Grandland/>
+            <News/>
+            <div className={Styles.container}></div>
         </Layout>
     )
 }

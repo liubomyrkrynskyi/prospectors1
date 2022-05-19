@@ -1,0 +1,42 @@
+@import "../../styles/defs";
+
+.features {
+  height: 100%;
+  background: url("../../images/landing/back_decor/back_6.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hidden {
+  width: 100%;
+}
+.featuresBoxes {
+  text-align: center;
+  display: flex;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  align-items: center;
+}
+.boxOne {
+  width: 33%;
+    img{
+      width: 100%;
+    }
+}
+.boxTwo {
+  width: 33%;
+  img{
+    width: 100%;
+  }
+}
+.boxThree {
+  width: 33%;
+  img{
+    width: 100%;
+  }
+}
+

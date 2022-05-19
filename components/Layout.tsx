@@ -1,12 +1,12 @@
 import {ReactNode} from "react";
 import Head from "next/head";
-import Header from "./Header";
+import Header from "./Header/Header";
 
 const Layout = (
     {
         children,
         title
-    }: {
+    }:{
         children: ReactNode,
         title: string
     }
@@ -22,6 +22,7 @@ const Layout = (
             <Header/>
 
             {children}
+
         </div>
     )
 }

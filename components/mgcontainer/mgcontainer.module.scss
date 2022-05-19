@@ -1,0 +1,26 @@
+@import "styles/defs";
+
+.mgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mgInfoBlock {
+  width: 448px;
+  color: var ($main-color);
+    h2{
+      font-size: 42px;
+      text-align: left;
+      font-weight: bold;
+    }
+}
+.mgContainerText {
+
+}
+.mgImg {
+  width: 100%;
+  height: 100%;
+}
+.btnPlay {
+    width: 100px;
+}

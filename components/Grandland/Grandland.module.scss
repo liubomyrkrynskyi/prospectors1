@@ -1,0 +1,42 @@
+.grandLand {
+  background: url("../../images/landing/choose_server/back_for_landing.jpg");
+  background-size: cover;
+}
+.grandLandContainer {
+  width: 100%;
+  height: 70%;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.grandLandImg {
+  width: 100%;
+  max-width: 896px;
+  text-align: center;
+}
+.grandLandAmountLabel{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #8C8C8C;
+}
+.grandLandAmountValue {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #2A2A2A;
+}
+.playBtnBig {
+  button {
+    width: 211px;
+    height: 53px;
+    font-size: 26px;
+  }
+}
