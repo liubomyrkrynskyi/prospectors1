@@ -1,0 +1,21 @@
+.pglToken {
+  display: flex;
+}
+.pglWhat {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.pglImg {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+    .pglScheme {
+      margin-left: 10%;
+      img{
+        width: 100%;
+      }
+    }
+}

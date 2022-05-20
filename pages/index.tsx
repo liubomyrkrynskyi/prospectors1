@@ -5,6 +5,7 @@ import MgContainer from "../components/mgcontainer/mgcontainer";
 import Features from "../components/Features/Features";
 import Grandland from "../components/Grandland/Grandland";
 import News from "../components/News/News"
+import Pgl from "../components/Pgl/Pgl"
 import Layout from "../components/Layout";
 import Styles from "../components/Layout.module.scss";
 
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
             <Features/>
             <Grandland/>
             <News/>
+            <Pgl/>
             <div className={Styles.container}></div>
         </Layout>
     )

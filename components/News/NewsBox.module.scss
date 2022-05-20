@@ -1,0 +1,33 @@
+@import "styles/defs";
+
+.newsBox {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+}
+.box {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 33%;
+  .boxNews {
+    color: $main-color;
+
+    .newsImg {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .titleNews {
+      height: 60px;
+      h4 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+    .description {
+      height: 84px;
+    }
+  }
+}

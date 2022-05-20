@@ -12,7 +12,8 @@ const Features = () => {
         <div className={LayoutStyles.container}>
             <div className={Styles.featuresContainer}>
                 <div className={Styles.hidden}>
-                    <Title title={L.features.game_features}/>
+                    <Title title={L.features.game_features}
+                           description={L.features.prospectors_first}/>
                     <div className={Styles.featuresBoxes}>
                         <div className={Styles.boxOne}>
                             <h4 className={Styles.name}>

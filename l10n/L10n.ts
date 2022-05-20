@@ -45,6 +45,18 @@ export const L = {
         play_game: "PLAY GAME"
     },
     news: {
-        latest_news: "LATEST NEWS"
+        latest_news: "LATEST NEWS",
+        latest_prospectors: "The latest news from Prospectors",
+            newsBox: {
+                buy_land : "Buy Land in Goldshire!",
+                during_auction: "During the Auction of Premium Land, Animals, and Vehicles, 512 assets will go up for bid. Let’s review some features of the other assets which are going to go on sale.",
+                grand_land: "Grand Land of Prospectors",
+                nft_land: "This time it’s the Grand Land of Prospectors, with its land NFTs and lifelong land ownership, making us lose our sleep waiting for the launch scheduled for ⏰ November 25.",
+                land_map: "The Grand Land: the Map, Resources, Plot NFTs and the Roadmap",
+                land_wealth: "An eagle is soaring above unbounded green plains where large herds of deer graze, above dark pristine forests where bears roam as the sole lords of the land. It is a Grand Land indeed, and its wealth is waiting for you fellow Prospectors.",
+            },
+    },
+    pgl: {
+        pgl_token: "PGL TOKEN",
     }
 }
