@@ -4,6 +4,9 @@
   margin-right: -15px;
   margin-left: -15px;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .box {
   position: relative;
@@ -11,6 +14,7 @@
   padding-right: 15px;
   padding-left: 15px;
   width: 33%;
+  min-width: 350px;
   .boxNews {
     color: $main-color;
 

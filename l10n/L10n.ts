@@ -58,5 +58,7 @@ export const L = {
     },
     pgl: {
         pgl_token: "PGL TOKEN",
+        what_is_pgl: "What is Prospectors Gold (PGL)?",
+        limited_pgl: "The total amount of PGL is limited - 220 000 000 tokens. This is an approximate amount of all the planet’s gold (mined and unmined).",
     }
 }

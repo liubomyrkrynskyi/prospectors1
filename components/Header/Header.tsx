@@ -5,6 +5,9 @@ import LayoutStyles from "../Layout.module.scss"
 import PlayBtn from "../PlayBtn/PlayBtn";
 
 const Header = () => {
+
+
+
     return (
         <div className={Styles.header}>
             <div className={LayoutStyles.container}>
@@ -37,9 +40,14 @@ const Header = () => {
                             <li>{L.header.links.faqs}</li>
                         </a>
                     </div>
-                    <a href="components/Header/Header">
+                    <a className={Styles.playBtnHeader} href="components/Header/Header">
                         <PlayBtn text={L.header.play_game}/>
                     </a>
+                </div>
+            </div>
+            <div className={Styles.mobMenu}>
+                <div className={Styles.menu}  >
+
                 </div>
             </div>
         </div>

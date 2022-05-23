@@ -21,3 +21,13 @@
   outline: var(--outline_r);
   padding-top: 150px;
 }
+.header {
+  .container::before{
+    content: '';
+    display: table;
+  }
+  .container::after{
+    content: '';
+    display: table;
+  }
+}

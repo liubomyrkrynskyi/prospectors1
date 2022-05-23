@@ -1,21 +1,42 @@
+.aboutPgl {
+  height: 100%;
+}
+.pglContainer {
+  display: flex;
+  background: url("../../images/landing/back_decor/back_7.jpg");
+  background-size: cover;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 .pglToken {
   display: flex;
-}
-.pglWhat {
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.pglImg {
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
+  .pglWhat {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .pglImg {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
     .pglScheme {
       margin-left: 10%;
       img{
         width: 100%;
       }
     }
+  }
+}
+.aboutBlock {
+  margin-top: 10%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }

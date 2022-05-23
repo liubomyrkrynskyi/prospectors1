@@ -9,7 +9,7 @@ const MgContainer = () => {
     return (
         <div className={Styles.mgContainer}>
             <div className={LayoutStyles.container}>
-                <div className={Styles.mgContainer}>
+                <div className={Styles.mgContainerBlock}>
                     <div className={Styles.mgInfoBlock}>
                         <h2>{L.mgContainer.what_is_prospectors}</h2>
                         <div className={Styles.mgContainerText}>
@@ -19,13 +19,13 @@ const MgContainer = () => {
                                 <br/>
                                 {L.mgContainer.thrilling_life}
                             </p>
-                        </div>
-                        <div className={Styles.btnPosition}>
-                            <a href="components/mgContainer/mgContainer">
-                                <div className={Styles.btnPlay}>
-                                    <PlayBtn text={L.mgContainer.read_more}/>
-                                </div>
-                            </a>
+                            <div className={Styles.btnPosition}>
+                                <a href="components/mgContainer/mgContainer">
+                                    <div className={Styles.btnPlay}>
+                                        <PlayBtn text={L.mgContainer.read_more}/>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div className={Styles.mgImg}>
