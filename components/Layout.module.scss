@@ -15,18 +15,21 @@
   margin-right: auto;
   margin-left: auto;
 }
+
 .logoContainer {
   max-width: 600px;
   margin: 0 auto;
   outline: var(--outline_r);
   padding-top: 150px;
 }
+
 .header {
-  .container::before{
+  .container::before {
     content: '';
     display: table;
   }
-  .container::after{
+
+  .container::after {
     content: '';
     display: table;
   }

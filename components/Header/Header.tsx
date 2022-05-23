@@ -4,21 +4,18 @@ import Styles from "./Header.module.scss"
 import LayoutStyles from "../Layout.module.scss"
 import PlayBtn from "../PlayBtn/PlayBtn";
 import {PagePath} from "../../helpers/PageHelper";
-import {useState} from "react";
+import SideBar from "./SideBar";
 
 const Header = () => {
-    let [menu, setMenu] = useState(false);
 
     return (
         <div className={Styles.header}>
             <div className={LayoutStyles.container}>
                 <div className={Styles.nav}>
-                    <div>
-                        <a href={PagePath.INDEX}>
-                            <img height={"44px"} src={mobile_logo_img.src} alt="mobile logo"/>
-                        </a>
-                    </div>
-                    <div className={Styles.navBox}>
+                    <a href={PagePath.INDEX}>
+                        <img height={"44px"} src={mobile_logo_img.src} alt="mobile logo"/>
+                    </a>
+                    <div className={Styles.nav_box}>
                         <a href={PagePath.INDEX}>
                             <li>{L.header.links.about_game}</li>
                         </a>
@@ -44,22 +41,11 @@ const Header = () => {
                     <a className={Styles.playBtnHeader} href={PagePath.INDEX}>
                         <PlayBtn text={L.header.play_game}/>
                     </a>
-                </div>
-            </div>
-            <div className={Styles.mobMenu}>
-                <div className={Styles.menu} onClick={() => setMenu(!menu)}>
-                    {
-                        menu
-                        &&
-                        <div>
-
-                        </div>
-                    }
+                    <SideBar/>
                 </div>
             </div>
         </div>
     )
 }
-
 
 export default Header

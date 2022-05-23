@@ -6,7 +6,7 @@
       <script value="dev" />
     </scripts>
     <node-interpreter value="project" />
-    <package-manager value="$PROJECT_DIR$/node_modules/yarn/bin/yarn" />
+    <package-manager value="yarn" />
     <envs />
     <method v="2" />
   </configuration>
