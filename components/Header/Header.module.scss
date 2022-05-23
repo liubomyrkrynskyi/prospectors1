@@ -9,7 +9,7 @@
   box-shadow: 0 0 5px -1px black;
   height: 68px;
 }
-.nav_box {
+.navBox {
   display: flex;
   column-gap: 10px;
   @media (max-width: 900px) {
@@ -52,7 +52,6 @@
         background: $accent-color;
         border-radius: 3px;
         justify-content: space-between;
-        row-gap: 5px;
       }
     .menu::before{
       content: '';

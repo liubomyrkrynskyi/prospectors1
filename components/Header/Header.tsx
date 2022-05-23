@@ -18,7 +18,7 @@ const Header = () => {
                             <img height={"44px"} src={mobile_logo_img.src} alt="mobile logo"/>
                         </a>
                     </div>
-                    <div className={Styles.nav_box}>
+                    <div className={Styles.navBox}>
                         <a href={PagePath.INDEX}>
                             <li>{L.header.links.about_game}</li>
                         </a>
@@ -46,17 +46,20 @@ const Header = () => {
                     </a>
                 </div>
             </div>
-            <div className={Styles.mobMenu} onClick={() => setMenu(!menu)}>
-                <div className={Styles.menu}>
-                    {menu &&
-                    <div>
+            <div className={Styles.mobMenu}>
+                <div className={Styles.menu} onClick={() => setMenu(!menu)}>
+                    {
                         menu
-                    </div>
+                        &&
+                        <div>
+
+                        </div>
                     }
                 </div>
             </div>
         </div>
     )
 }
+
 
 export default Header
