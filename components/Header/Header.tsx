@@ -4,8 +4,11 @@ import Styles from "./Header.module.scss"
 import LayoutStyles from "../Layout.module.scss"
 import PlayBtn from "../PlayBtn/PlayBtn";
 import {PagePath} from "../../helpers/PageHelper";
+import {useState} from "react";
 
 const Header = () => {
+    let [menu, setMenu] = useState(false);
+
     return (
         <div className={Styles.header}>
             <div className={LayoutStyles.container}>
@@ -38,9 +41,18 @@ const Header = () => {
                             <li>{L.header.links.faqs}</li>
                         </a>
                     </div>
-                    <a href={PagePath.INDEX}>
+                    <a className={Styles.playBtnHeader} href={PagePath.INDEX}>
                         <PlayBtn text={L.header.play_game}/>
                     </a>
+                </div>
+            </div>
+            <div className={Styles.mobMenu} onClick={() => setMenu(!menu)}>
+                <div className={Styles.menu}>
+                    {menu &&
+                    <div>
+                        menu
+                    </div>
+                    }
                 </div>
             </div>
         </div>
